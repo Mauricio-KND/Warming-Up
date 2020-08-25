@@ -58,6 +58,7 @@ public class RemoveDuplicatesFromArrayList {
 
     private static String inv(String s) {
 
+        // Iterating
         StringBuilder revs = new StringBuilder();
         for (int i=1; i<=s.length(); i++) {
             revs.append(s.charAt(s.length() - i));
